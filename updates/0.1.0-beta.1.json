@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0-beta.1",
+  "tag": "v0.1.0-beta.1",
+  "changelogSha256": "5f1a61649430fb800ead397006056686b09d8ddd019e9e95b3070da615fc89f9",
+  "platforms": {
+    "win-x64": {
+      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-win-beta-full.nupkg",
+      "sha256": "4B42E7E1B38F009CB8B2F177D9E320562FA8C4E47AA74FF35A887A1D8040F5BD",
+      "size": 67247624
+    },
+    "osx-arm64": {
+      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-osx-arm64-beta-full.nupkg",
+      "sha256": "CED21879420421DB3B10107780A49DA781A8BF167E32D13BD1B96DAC2C94C508",
+      "size": 62942909
+    },
+    "osx-x64": {
+      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-osx-x64-beta-full.nupkg",
+      "sha256": "34ABC3CD419A54204D8A4962C8E4A37D8FB6C00E7F16FF8E606BA063662EB30A",
+      "size": 65093488
+    }
+  }
+}
