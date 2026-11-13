@@ -1,0 +1,7 @@
+Zumbyte Launcher
+Copyright © 2026 Zumbyte - AppSolution. Alle Rechte vorbehalten.
+https://zumbyte.de/
+
+Diese Software enthält Komponenten Dritter unter deren jeweiligen Lizenzen.
+Eine Übersicht mit Lizenztexten liegt im Ordner licenses bei.
+Quellcode und Downloads werden in getrennten GitHub-Repositories verwaltet.
