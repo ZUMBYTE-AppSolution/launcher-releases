@@ -1,22 +1,22 @@
 {
-  "version": "0.1.0-beta.1",
-  "tag": "v0.1.0-beta.1",
-  "changelogSha256": "5f1a61649430fb800ead397006056686b09d8ddd019e9e95b3070da615fc89f9",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "changelogSha256": "8339b7145b9e1f8a48c722ec794eff46b55dce3ee1a0701fdec66ed3327cbf55",
   "platforms": {
     "win-x64": {
-      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-win-beta-full.nupkg",
-      "sha256": "4B42E7E1B38F009CB8B2F177D9E320562FA8C4E47AA74FF35A887A1D8040F5BD",
-      "size": 67247624
+      "fileName": "Zumbyte.Launcher-0.2.0-win-release-full.nupkg",
+      "sha256": "BAF447A110D85674FD5A51494326421D24CA57E2029D8624CDD53E28BF806F45",
+      "size": 67323599
     },
     "osx-arm64": {
-      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-osx-arm64-beta-full.nupkg",
-      "sha256": "CED21879420421DB3B10107780A49DA781A8BF167E32D13BD1B96DAC2C94C508",
-      "size": 62942909
+      "fileName": "Zumbyte.Launcher-0.2.0-osx-arm64-release-full.nupkg",
+      "sha256": "7EC20893E7D6F8DA494941F5FF5C818E212B003DA6F9FC81362D69FF646A591C",
+      "size": 63020617
     },
     "osx-x64": {
-      "fileName": "Zumbyte.Launcher-0.1.0-beta.1-osx-x64-beta-full.nupkg",
-      "sha256": "34ABC3CD419A54204D8A4962C8E4A37D8FB6C00E7F16FF8E606BA063662EB30A",
-      "size": 65093488
+      "fileName": "Zumbyte.Launcher-0.2.0-osx-x64-release-full.nupkg",
+      "sha256": "0CCBDC1878517302065F255B175F488DC6373DBF21398D5BED5457E1569C6E94",
+      "size": 65171151
     }
   }
 }
