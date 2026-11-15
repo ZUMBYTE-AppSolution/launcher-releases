@@ -12,9 +12,9 @@ Die [Releases](https://github.com/ZUMBYTE-AppSolution/launcher-releases/releases
 
 | Plattform | Erstinstallation | Portable Ausgabe | Spätere Updates |
 |---|---|---|---|
-| Windows x64 | `win-beta-Setup.exe` | `win-beta-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
-| macOS Apple Silicon | `osx-arm64-beta-Setup.pkg` | `osx-arm64-beta-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
-| macOS Intel | `osx-x64-beta-Setup.pkg` | `osx-x64-beta-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
+| Windows x64 | `win-release-Setup.exe` | `win-release-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
+| macOS Apple Silicon | `osx-arm64-release-Setup.pkg` | `osx-arm64-release-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
+| macOS Intel | `osx-x64-release-Setup.pkg` | `osx-x64-release-Portable.zip` | Vollständiges Updatepaket, ohne Installer |
 
 Die .NET-Laufzeit ist enthalten. macOS setzt Version 14 oder neuer voraus. Windows setzt Windows 10 x64 oder neuer voraus. Mac-Ausgaben sind mit Developer ID signiert und von Apple notarisiert. Windows-Pakete sind derzeit unsigniert; Windows kann beim ersten Start einen Hinweis anzeigen.
 
@@ -36,9 +36,11 @@ Der Launcher prüft Version, Betriebssystem, Architektur, Paketgröße und SHA25
 
 Jeder Release enthält `CHANGELOG.md`, `SHA256SUMS.txt`, Plattform-Feeds und vollständige Updatepakete. Die Dateien unter `updates/` enthalten ausschließlich öffentliche Release-Metadaten.
 
-## Stand der ersten Beta
+## App-Verwaltung ab Version 0.2.0
 
-Die Katalogerkennung, Bilder, Detailfenster, Store-Links und der Launcher-Updater sind integriert. **Download, Installation, Start und Deinstallation anderer GitHub-Apps sind weiterhin eine markierte Bedienvorschau.** Store-Apps werden vom jeweiligen Store verwaltet. Diese Beta meldet beim ersten Start keine Apps fälschlich als installiert.
+GitHub-Apps werden wirklich heruntergeladen, geprüft, installiert und gestartet. Pause und Fortsetzung funktionieren auch nach einem Neustart. Vor App-Updates erscheinen die Änderungsnotizen als Markdown. Lokale Daten bleiben beim Update erhalten; die vorherige Ausgabe wird im App-Hauptordner unter `.zumbyte-backups` gesichert. Eine Deinstallation entfernt die verwalteten Programmdateien und behält persönliche Dateien separat.
+
+Der Launcher erkennt vorhandene Systeminstallationen. Apps mit eigenem Installer werden über diesen eingerichtet; der fertige Download wird erst nach tatsächlicher Erkennung als installierte App angezeigt. Store-Apps verwenden den jeweiligen nativen Store für Installation und Updates. Desktop-Verknüpfungen, Installationspfad und Update-Einstellungen sind funktionsfähig. Frühere Releases bis 0.1.0-beta.1 enthielten noch eine Bedienvorschau der App-Verwaltung.
 
 Dieses Repository enthält Produktbeschreibung, Bilder, Changelogs und fertige Downloads. Der Anwendungsquellcode wird separat verwaltet.
 
